@@ -1,0 +1,67 @@
+.header {
+    margin-left: 1285px;
+    /* margin-top: 50px; */
+}
+
+.header button {
+    border: none;
+    background: none;
+}
+
+.menuBtn {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+
+    position: absolute;
+    top: 49px;
+    left: 135px;
+
+}
+
+.searchImg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 54px;
+    left: 829px;
+
+}
+
+.searchInp {
+    width: 308px;
+    border: none;
+
+    border-bottom: 1px solid #7D7D7D;
+    outline: none;
+
+    position: absolute;
+    top: 54px;
+    left: 868px;
+
+}
+
+.accountBtn {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 55px;
+    left: 1215px;
+}
+
+.favoritesBtn {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 55px;
+    left: 1250px;
+}
+
+.cartBtn {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 55px;
+    left: 1285px;
+}
+

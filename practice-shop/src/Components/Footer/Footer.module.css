@@ -1,0 +1,113 @@
+a {
+    text-decoration: none;
+    /* color: inherit; */
+
+    color: #FFFDF5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+    /* justify-content: space-between; */
+
+    background: #514A7E;
+    width: 100%;
+    height: 373.4px;
+    display: flex;
+    position: relative;
+    top: 1000px;
+
+  }
+
+  .footLabel {
+    color: #FFFDF5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  p {
+    color: #FFFDF5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  /* .footInfo, .footMyAccount .footSocial {
+    flex: 1;
+  } */
+
+  .footInfo {
+    position: relative;
+    width: 124px;
+    height: 206.12px;
+
+    left: 135px;
+
+  }
+  .footMyAccount {
+    position: relative;
+    width: 124px;
+    height: 114.51px;
+    /* left: 356px; */
+  }
+
+  .footContact {
+    position: relative;
+    /* left: px; */
+
+  }
+
+  .footSocial {
+    position: relative;
+  }
+
+  .imgPhone {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .imgClock {
+    width: 20px;
+    height: 19.915px;
+    flex-shrink: 0;
+  }
+
+  .footInfo {
+    margin-right: 200px;
+  } 
+  
+  .footMyAccount {
+    margin-right: 97px;
+  }
+  .footContact {
+    margin-right: 0;
+  }
+  .footSocial {
+    margin-left: 108px;
+  }
+
+  .ip {
+    color: #FFFDF5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
