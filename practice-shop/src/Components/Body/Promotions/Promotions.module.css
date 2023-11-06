@@ -1,0 +1,42 @@
+.promotions {
+    position: relative;
+    width: 1352px;
+    height: 535px;
+    top: 1469px;
+    left: 135px;
+
+}
+
+.promoBox {
+    display: flex;
+    position: relative;
+    /* justify-content: space-evenly; */
+}
+
+.promoCard {
+    margin-right: 80px;
+}
+
+.buy {
+    position: relative;
+    width: 401px;
+    height: 31px;
+    top: 1469px;
+    left: 135px;
+}
+
+.sales {
+    position: relative;
+    width: 103px;
+    height: 31px;
+    top: 1500px;
+    left: 403px;
+}
+
+.promoBox {
+    position: relative;
+    width: 1352px;
+    height: 413px;
+    top: 1591px;
+    left: 135px;
+}

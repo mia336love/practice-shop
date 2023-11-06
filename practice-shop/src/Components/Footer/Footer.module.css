@@ -1,7 +1,5 @@
 a {
     text-decoration: none;
-    /* color: inherit; */
-
     color: #FFFDF5;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -18,16 +16,17 @@ li {
 }
 
 .footer {
-    display: flex;
-    /* justify-content: space-between; */
-
     background: #514A7E;
     width: 100%;
     height: 373.4px;
     display: flex;
     position: relative;
-    top: 1000px;
+    top: 4500.24px;
 
+    display: flex;
+    justify-content: center; 
+    align-items: baseline;   
+  
   }
 
   .footLabel {
@@ -37,9 +36,11 @@ li {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    margin-top: 60px;
   }
 
-  p {
+  .footer p {
     color: #FFFDF5;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -53,28 +54,28 @@ li {
   } */
 
   .footInfo {
-    position: relative;
+    /* position: relative; */
     width: 124px;
     height: 206.12px;
 
-    left: 135px;
+    /* left: 135px; */
 
   }
   .footMyAccount {
-    position: relative;
+    /* position: relative; */
     width: 124px;
     height: 114.51px;
     /* left: 356px; */
   }
 
   .footContact {
-    position: relative;
-    /* left: px; */
+    /* position: relative; */
+    left: 60px;
 
   }
 
   .footSocial {
-    position: relative;
+    /* position: relative; */
   }
 
   .imgPhone {
@@ -90,17 +91,17 @@ li {
   }
 
   .footInfo {
-    margin-right: 200px;
+    margin-right: 97px;
   } 
   
   .footMyAccount {
     margin-right: 97px;
   }
   .footContact {
-    margin-right: 0;
+    margin-right: 97px;
   }
   .footSocial {
-    margin-left: 108px;
+    margin-right: 97px;
   }
 
   .ip {
@@ -110,4 +111,14 @@ li {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+  }
+
+  .logoNeon {
+    width: 84px;
+    height: 83.642px;
+    flex-shrink: 0;
+
+    position: absolute;
+    left: 90%;
+    top: 70%
   }

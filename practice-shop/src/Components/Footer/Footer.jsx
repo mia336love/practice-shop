@@ -1,4 +1,4 @@
-import styles from '../Footer/Footer.module.css';
+import styles from './Footer.module.css';
 
 const Footer = () =>{
     return (
@@ -51,6 +51,8 @@ const Footer = () =>{
                         <p>круглосуточно, без выходных</p>
                     </li>
                 </div>
+                <img className={styles.logoNeon} src="./images/logo-neon-2.png" alt="logo neon" />
+
                 
             {/* </footer> */}
         </div>
