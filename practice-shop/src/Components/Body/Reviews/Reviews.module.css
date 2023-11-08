@@ -55,12 +55,35 @@
     font-weight: 300;
     line-height: 170%; /* 20.4px */
 
-    display: flex;
+    /* display: flex;
     position: relative;
     left: 167px;
     width: 263px;
-    height: 70px;
+    height: 70px; */
     /* top: -25%; */
 
 
+}
+
+.reviewInfo {
+    position: relative;
+    left: 49px;
+}
+
+.rewCard {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    position: relative;
+    top: 50%;
+}
+
+.date {
+    display: flex;
+    position: relative;
+    left: 60%;
 }

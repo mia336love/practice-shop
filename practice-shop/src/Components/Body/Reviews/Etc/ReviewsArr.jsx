@@ -4,6 +4,7 @@ import styles from '../Reviews.module.css';
 
 import img1 from '../../../../Images/Reviews/users photo/img1.jpg'
 import img2 from '../../../../Images/Reviews/users photo/img2.jpg'
+import star from '../../../../Images/Reviews/star.svg'
 
 const ReviewsArr = () => {
     const [reviewsArr, setReviewsArr] = useState([
@@ -28,12 +29,41 @@ const ReviewsArr = () => {
     
     let renderReviews = reviewsArr.map(rew => {
         return (
+
+            // <div className={styles.reviewCard}>
+            //     <img className={styles.ava} src={rew.image} alt={rew.name} />
+            //     <div className={styles.rewInfo}>
+
+            //         <div className={styles.rating}>
+            //             {new Array(rew.rating).fill(1).map((item, index) => (
+            //                 <img className={styles.star} src={star} alt="rating" />
+            //             ))}
+            //         </div>
+
+            //         <p className={styles.text}>{rew.description}</p>
+            //         <div className={styles.rewFooter}>
+            //             <p className={styles.name}>{rew.name}</p>
+            //             <p className={styles.date}>{rew.date}</p>
+            //         </div>
+            //     </div>
+            // </div>
+
+
             <div key={rew.id} className={styles.rewCard}>
-                <div>{rew.rating}</div>
-                <img className={styles.avatar} src={rew.image} alt={rew.name} />
-                <p className={styles.description}>{rew.description}</p>
-                <p>{rew.name}</p>
-                <p>{rew.date}</p>
+                <li>
+                    <img className={styles.avatar} src={rew.image} alt={rew.name} />
+                    <div className={styles.reviewInfo}>
+                        <div>{rew.rating}</div>
+                        <p className={styles.description}>{rew.description}</p>
+                        <div className={styles.reviewFooter}>
+                            <p className={styles.name}>{rew.name}</p>
+                            <p className={styles.date}>{rew.date}</p>
+                        </div>
+                        
+                    </div>
+                
+                </li>
+                
             </div>
         )
     })
