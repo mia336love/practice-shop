@@ -1,42 +1,145 @@
-.promotions {
-    position: relative;
+/* .promotions {
+    position: absolute;
     width: 1352px;
     height: 535px;
     top: 1469px;
     left: 135px;
+} */
 
+.promotions {
+    display: block;
 }
 
 .promoBox {
     display: flex;
-    position: relative;
+    position: absolute;
     /* justify-content: space-evenly; */
 }
 
-.promoCard {
+.promoCardInfo {
     margin-right: 80px;
+    text-align: left;
+}
+
+.promoCardInfo img {
+    width: 278px;
+    height: 319px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 10px 0px rgba(81, 74, 126, 0.20);
 }
 
 .buy {
-    position: relative;
+    position: absolute;
     width: 401px;
     height: 31px;
     top: 1469px;
     left: 135px;
+
+
+    color: #121212;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%; /* 34.922px */
 }
 
 .sales {
-    position: relative;
+    position: absolute;
     width: 103px;
     height: 31px;
     top: 1500px;
     left: 403px;
+
+    color: #514A7E;
+    font-family: Bad Script;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87.305%; /* 34.922px */
 }
 
 .promoBox {
-    position: relative;
+    position: absolute;
     width: 1352px;
     height: 413px;
     top: 1591px;
     left: 135px;
+}
+
+.promoPrice {
+    display: flex;
+    width: 49px;
+    height: 9px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #121212;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.oldPrice {
+    /* text-decoration: line-through; */
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.promoProdName {
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.promoCardBtns button {
+    border: none;
+    background: none;
+
+    display: flex;
+}
+
+.promoCardBtns {
+    /* padding-top: 24px; */
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+}
+.likeBtn {
+    margin-left: 223px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.cartBtn {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+}
+
+.promoPrice {
+    /* margin-right: 23px; */
+}
+
+.promoProdName {
+    margin-top: -4px;
+}
+
+.rating {
+    text-align: right;
 }

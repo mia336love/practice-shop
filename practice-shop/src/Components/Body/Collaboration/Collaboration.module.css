@@ -1,0 +1,84 @@
+.collaboration {
+    position: absolute;
+    top: 3322px;
+    left: 135px;
+}
+
+.collaborationLabel {
+    color: #121212;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%;
+}
+
+.ourCompany {
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%;
+
+    margin-top: 73px;
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.blocks label {
+    color: #121212;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%;
+
+}
+.blocks p {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%;
+
+    margin-top: 22px;
+}
+.block1 {
+    margin-right: 110px;
+}
+.block2 {
+    margin-right: 170px;
+}
+.block3 {
+    margin-right: 170px;
+}
+
+.benefits label {
+    color: #121212;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87.305%;
+
+}
+.benBlocks {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-align: center;    
+    margin-top: 60px;
+
+}

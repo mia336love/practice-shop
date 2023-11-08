@@ -1,7 +1,12 @@
 import styles from '../WhyWe/WhyWe.module.css';
 
 // import img1 from '../../../products/1.jpg'
-import smallEll from '../../../../src/Images/whyWe/small ellipse.svg'
+import smallEll1 from '../../../../src/Images/whyWe/small ellipse.svg'
+import smallEll2 from '../../../../src/Images/whyWe/small ellipse.svg'
+import bigEll1 from '../../../../src/Images/whyWe/big ellipse.svg'
+import bigEll2 from '../../../../src/Images/whyWe/big ellipse.svg'
+
+
 
 const WhyWe = () => {
     return (
@@ -16,7 +21,11 @@ const WhyWe = () => {
             <p className={styles.points}>Пункты выдачи заказов рядом с домом</p>
             <p className={styles.assortment}>Ширикий ассортимент товаров для всей семьи</p>
 
-            <img src={smallEll} alt="small ellipse" />
+            <img className={styles.sEll1} src={smallEll1} alt="small ellipse" />
+            <img className={styles.sEll2} src={smallEll2} alt="small ellipse" />
+            <img className={styles.bEll1} src={bigEll2} alt="big ellipse" />
+            <img className={styles.bEll2} src={bigEll2} alt="big ellipse" />
+
 
         </div>
     )

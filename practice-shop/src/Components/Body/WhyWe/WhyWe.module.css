@@ -70,3 +70,36 @@ p {
     font-weight: 300;
     line-height: 87.305%; /* 34.922px */
 }
+
+.sEll1 {
+    position: absolute;
+    /* width: 28px; */
+    /* height: 28px; */
+    top: 1148px;
+    left: 243px;
+
+}
+.sEll2 {
+    position: absolute;
+    /* width: 28px; */
+    /* height: 28px; */
+    top: 1248px;
+    left: 972px;
+
+}
+.bEll1 {
+    position: absolute;
+    /* width: 47px; */
+    /* height: 47px; */
+    top: 1272px;
+    left: 428px;
+
+}
+.bEll2 {
+    position: absolute;
+    /* width: 47px; */
+    /* height: 47px; */
+    top: 1101px;
+    left: 864px;
+
+}
