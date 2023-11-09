@@ -1,0 +1,66 @@
+.btnText {
+    position: absolute;
+    width: 79px;
+    height: 14px;
+    top: 741px;
+    left: 660px;
+
+    color: #514A7E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnEllipse {
+    position: relative;
+    width: 193px;
+    height: 193px;
+    top: 658px;
+    left: 623px;
+    border: 1px;
+
+    stroke-width: 1px;
+    stroke: #514A7E;
+}
+
+.btnArrow {
+    position: relative;
+    width: 79px;
+    top: 600px;
+    left: 492px;
+    border: 1px;
+
+    stroke-width: 1px;
+    stroke: #514A7E;
+}
+
+.btnText:hover {
+    color: #FFFDF5;
+}
+
+.btnEllipse:hover {
+    fill: #514A7E;
+}
+
+.btnArrow:hover {
+    color: #FFFDF5;
+}
+
+/* .catalogBtn:hover {
+    color: #FFFDF5;
+    fill: #514A7E;
+
+} */
+
+
+/* .catalogBtn:hover img {
+      content: url('../../../../Images/Welcome/catalog-btn.svg');
+  } */
+
+/* .catalogBtn {
+    position: relative;
+    top: 50px;
+    left: 50px;
+} */

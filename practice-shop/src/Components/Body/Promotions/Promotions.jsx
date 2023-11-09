@@ -10,7 +10,7 @@ import img4 from '../../../Images/Promotions/products/4.jpg'
 import heart from '../../../Images/Promotions/icons/heart.svg'
 import cart from '../../../Images/Promotions/icons/cart.svg'
 import star from '../../../Images/Promotions/icons/star.svg'
-
+// import star from '../../../../Images/'
 
 // import star from '../../../Images/products/star.svg'
 
@@ -67,7 +67,12 @@ const Promotions = () => {
             </div>
             
             <p className={styles.promoProdName}>{promo.name}</p>
-            <p className={styles.rating}>{promo.rating}</p>
+            {/* <p className={styles.rating}>{promo.rating}</p> */}
+            <div className={styles.rating}>
+                {new Array(promo.rating).fill(1).map((item, index) => (
+                    <img className={styles.star} src={star} alt="rating" />
+                ))}
+              </div>
 
           </div>
 

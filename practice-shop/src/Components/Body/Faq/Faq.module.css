@@ -1,0 +1,54 @@
+.questions {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.labelText {
+    color: #121212;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%; /* 34.922px */
+
+    margin-left: 10%;
+    margin-bottom: -2.7%;
+}
+
+.faqText {
+    color: #514A7E;
+    font-family: Bad Script;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87.305%; /* 34.922px */
+    margin-left: 47%;
+    margin-bottom: 3%;
+}
+
+.question {
+    color: #121212;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.questionBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus {
+    margin-top: 1%;
+}
+
+.openedFaq {
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%; /* 18.88px */
+}

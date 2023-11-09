@@ -104,11 +104,12 @@
 } */
 
 .reviewBox {
-    position: absolute;
-    top: 2254px;
+    /* position: absolute;
+    top: 2254px; */
     display: flex;
     justify-content: space-between;
     width: 68%;
+    margin-left: 10%;
 }
 
 .rewInfo {
@@ -161,4 +162,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: 170%;
+}
+
+.reviewsLabel {
+    color: #121212;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%;
+
+    margin-left: 10%;
 }

@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../Header.module.css'
 
+import defaultAva from '../../../Images/Header/avatar.svg'
+
 const Account = () => {
+
+    let userName = ''
+    let userAva = defaultAva
+
+    const [getModal, setModal] = useState(null)
+
+
     return (
         <div>
             <button className={styles.accountBtn}>

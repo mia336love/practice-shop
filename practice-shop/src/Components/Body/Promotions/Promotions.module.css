@@ -12,7 +12,7 @@
 
 .promoBox {
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     /* justify-content: space-evenly; */
 }
 
@@ -29,7 +29,7 @@
 }
 
 .buy {
-    position: absolute;
+    /* position: absolute; */
     width: 401px;
     height: 31px;
     top: 1469px;
@@ -42,14 +42,16 @@
     font-style: normal;
     font-weight: 300;
     line-height: 87.305%; /* 34.922px */
+
+    margin-left: 9%;
 }
 
 .sales {
-    position: absolute;
-    width: 103px;
+    /* position: absolute; */
+    /* width: 103px;
     height: 31px;
     top: 1500px;
-    left: 403px;
+    left: 403px; */
 
     color: #514A7E;
     font-family: Bad Script;
@@ -57,14 +59,16 @@
     font-style: normal;
     font-weight: 400;
     line-height: 87.305%; /* 34.922px */
+    margin-left: 24%;
 }
 
 .promoBox {
-    position: absolute;
+    /* position: absolute; */
     width: 1352px;
     height: 413px;
     top: 1591px;
     left: 135px;
+    margin-left: 9%;
 }
 
 .promoPrice {
@@ -140,6 +144,10 @@
     margin-top: -4px;
 }
 
-.rating {
-    text-align: right;
+
+.rating img {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 86%;
 }
