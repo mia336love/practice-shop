@@ -9,14 +9,15 @@
 }
 
 .welcomeTitle {
-    /* width: 537px;
-    height: 114px; */
+    width: 105%;
+    /* height: 114px; */
     
 
     color: #121212;
     font-family: Roboto;
     font-weight: 300;
     font-size: 3.3em;
+    margin-left: 1%;
 }
 
 .cokteil {
@@ -39,6 +40,8 @@
     font-weight: 300;
     line-height: 118%;
     /* margin-top: 60px; */
+
+    margin-left: 1%;
 }
 
 .welcomeText {

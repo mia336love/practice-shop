@@ -10,21 +10,41 @@ import WhyWe from './Components/Body/WhyWe/WhyWe';
 import Collaboration from './Components/Body/Collaboration/Collaboration';
 import Reviews from './Components/Body/Reviews/Reviews';
 import Faq from './Components/Body/Faq/Faq';
+import CollaborationForm from './Components/Body/CollaborationForm/CollaborationForm';
+
+// import Login from '.Components/Body/Login/Login'
+
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Landing from './Components/Body/Landing/Landing';
+import Login from './Components/Body/Login/Login';
 
 
 function App() {
   return (
-    <div className={styles.mainApp}>
-    {/* <Header /> */}
-    <Welcome />
-    <WhyWe />
-    <Promotions />
-    <Reviews />
-    <Faq />
-    <Collaboration />
-    <Footer />
+    <BrowserRouter>
+        <div>
+        
+            <Routes>
+              <Route path='/' element={<Landing />} />
+              {/* <Route path="/catalog" element={<Promotions />} /> */}
+              <Route path='/login' element={<Login />}/>
+          </Routes>
+        </div>
+    </BrowserRouter>
+    
+  //   <div className={styles.mainApp}>
+  //   {/* <Header /> */}
+  //   <Welcome />
+  //   <WhyWe />
+  //   <Promotions />
+  //   <Reviews />
+  //   <Faq />
+  //   {/* <Collaboration /> */}
+  //   <CollaborationForm />
+  //   <Footer />
 
-  </div>
+  // </div>
   )
 }
 

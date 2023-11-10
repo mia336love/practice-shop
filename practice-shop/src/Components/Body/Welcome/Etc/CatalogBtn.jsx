@@ -1,5 +1,7 @@
 import React from 'react';
-import styles from '../Welcome.module.css'
+import styles from './CatalogBtn.module.css'
+
+import { NavLink } from 'react-router-dom'
 
 import ellipse from '../../../../Images/Welcome/ellipse.svg'
 import arrow from '../../../../Images/Welcome/arrow.svg'
@@ -14,10 +16,12 @@ const CatalogBtn = () => {
                 <img className={styles.btnArrow} src={arrow} />
                     
             </div> */}
-
+        <NavLink to='/catalog'>
             <button className={styles.catalogBtn}>
                 <img src={catalogBtn} alt="" />
             </button>
+        </NavLink>
+            
             
         </div>
     );

@@ -1,9 +1,17 @@
-// import React, { useState } from 'react';
-// import styles from '../Header.module.css'
+import React, { useState } from 'react';
+import styles from '../Header.module.css'
 
-// import menu from '../../../Images/Header/menu.svg'
+import menu from '../../../Images/Header/menu.svg'
 // import logo from '../../../Images/Header/logo.svg'
 
+const Menu = () => {
+    return (
+        <button className={styles.menutBtn}>
+                <img src={menu} alt="avatar" />
+            </button>
+    )
+}
+export default Menu;
 
 
 // const Menu = () => {

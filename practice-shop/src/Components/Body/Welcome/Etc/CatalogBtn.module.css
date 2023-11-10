@@ -59,8 +59,7 @@
       content: url('../../../../Images/Welcome/catalog-btn.svg');
   } */
 
-/* .catalogBtn {
-    position: relative;
-    top: 50px;
-    left: 50px;
-} */
+.catalogBtn {
+    display: flex;
+    margin-left: 42.4%;
+}

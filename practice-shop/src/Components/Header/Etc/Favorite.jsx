@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from '../Header.module.css'
 
+import heart from '../../../Images/Header/heart.svg'
+
+
 const Favorite = () => {
     return (
         <div>
             <button className={styles.favoritesBtn}>
-                <img src="./icons/heart.svg" alt="heart" />
+                <img src={heart} alt="heart" />
             </button>
         </div>
     );

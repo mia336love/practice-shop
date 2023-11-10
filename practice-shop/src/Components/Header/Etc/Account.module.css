@@ -1,0 +1,21 @@
+/* .accountBtn {
+    width: 20px;
+    height: 20px;
+} */
+
+
+.modal {
+    /* Позиционируем модальное окно поверх всего контента */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+    /* Для того, чтобы модальное окно не сбивало другие компоненты */
+    z-index: 100;
+}
