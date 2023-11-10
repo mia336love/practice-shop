@@ -1,0 +1,59 @@
+.loginLabel {
+    color: #121212;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%; /* 34.922px */
+    margin-left: 14%;
+    margin-top: 10%;
+
+}
+
+.auth input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 14%;
+
+    border: 0px;
+    border-bottom: solid;
+    border-color: rgba(125, 125, 125, 1);
+    border-width: 0.3vh;
+    margin-top: 4%;
+    height: 3vh;
+    outline: none;
+    background-color: transparent;
+
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%; /* 18.88px */
+}
+
+.forgotPassword {
+    color: #514A7E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%; /* 18.88px */
+
+    margin-left: 14%;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-left: 13.5%;
+    margin-top: 2%;
+}
+
+.closeLogin {
+    display: flex;
+    margin-left: 81%;
+    margin-top: -22%;
+}

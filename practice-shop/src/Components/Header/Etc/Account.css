@@ -14,3 +14,13 @@
     display: flex;
     flex-direction: column;
 }
+
+.defaultAva {
+    width: 39px;
+    height: 39px; 
+    margin-left: 37%;
+}
+
+.modal button {
+    margin-bottom: 6%;
+}

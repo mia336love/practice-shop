@@ -33,11 +33,11 @@ const WhyWe = () => {
                     <p className={styles.points}>Пункты выдачи заказов рядом с домом</p>
                 </div>
                 
-
+{/* 
                 <img className={styles.smallEll1} src={smallEll1} alt="small ellipse" />
                 <img className={styles.smallEll2} src={smallEll2} alt="small ellipse" />
                 <img className={styles.bigEll2} src={bigEll2} alt="big ellipse" />
-                <img className={styles.bigEll2} src={bigEll2} alt="big ellipse" />
+                <img className={styles.bigEll2} src={bigEll2} alt="big ellipse" /> */}
 
                 <div className={styles.buttons}>
                     <div className={styles.btnTopDiv}>

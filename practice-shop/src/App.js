@@ -18,17 +18,20 @@ import CollaborationForm from './Components/Body/CollaborationForm/Collaboration
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Landing from './Components/Body/Landing/Landing';
 import Login from './Components/Body/Login/Login';
+import Catalog from './Components/Body/Catalog/Catalog';
 
 
 function App() {
   return (
     <BrowserRouter>
         <div>
-        
+          
             <Routes>
               <Route path='/' element={<Landing />} />
               {/* <Route path="/catalog" element={<Promotions />} /> */}
               <Route path='/login' element={<Login />}/>
+              <Route path='/catalog' element={<Catalog />}/>
+
           </Routes>
         </div>
     </BrowserRouter>
