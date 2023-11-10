@@ -40,61 +40,20 @@ if (path && path !== '' && path2 && path2 !== '') {
             id: 0
         },
         {
-            name: "Сережа",
-            newPrice: "500.00 Р",
+            name: "Блузка",
+            newPrice: "50.00 Р",
             rating: 3,
             img: image2,
             id: 1
         },
         {
-            name: "Вилсон",
-            newPrice: "5000.00 Р",
+            name: "Блузка",
+            newPrice: "50.00 Р",
             rating: 4,
             img: image3,
             id: 2
         },
-        {
-            name: "Данечка",
-            newPrice: "500000000.00 Р",
-            rating: 3,
-            img: image4,
-            id: 3
-        },
-        {
-            name: "Вилсон",
-            newPrice: "5000.00 Р",
-            rating: 4,
-            img: image3,
-            id: 2
-        },
-        {
-            name: "Вилсон",
-            newPrice: "5000.00 Р",
-            rating: 4,
-            img: image3,
-            id: 2
-        },
-        {
-            name: "Вилсон",
-            newPrice: "5000.00 Р",
-            rating: 4,
-            img: image3,
-            id: 2
-        },
-        {
-            name: "Вилсон",
-            newPrice: "5000.00 Р",
-            rating: 4,
-            img: image3,
-            id: 2
-        },
-        {
-            name: "Вилсон",
-            newPrice: "5000.00 Р",
-            rating: 4,
-            img: image3,
-            id: 2
-        }
+
     ]
 
     const sizes = ['S', 'M', 'L', 'XL', '2XL', '3XL', '36', '38', '40', '42', '44', '46', '48', '50', '52', '54', '56', 'Универсальный']
