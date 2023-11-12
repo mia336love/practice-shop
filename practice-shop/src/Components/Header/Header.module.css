@@ -1,7 +1,4 @@
 .header {
-    /* margin-left: 1285px; */
-    /* margin-top: 50px; */
-
     display: flex;
     justify-content: space-between;
     width: 88%;
@@ -52,26 +49,24 @@
 
     border-bottom: 1px solid #7D7D7D;
     outline: none;
-
-  
 }
 
 .accountBtn {
     width: 20px;
     height: 20px;
-  
 }
 
 .favoritesBtn {
-   
     width: 20px;
     height: 20px;
-  
 }
 
 .cartBtn {
     width: 20px;
     height: 20px;
-   
 }
 
+.menu {
+    display: flex;
+    margin-left: 9%;
+}

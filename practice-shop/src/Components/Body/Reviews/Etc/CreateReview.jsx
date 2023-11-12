@@ -2,23 +2,16 @@ import React, { Component } from 'react';
 import addReviewBtn from '../../../../Images/Reviews/addReviewBtn.svg'
 import reviewrPhoto from '../../../../Images/Reviews/reviewrPhoto.jpg'
 
+import styles from '../Reviews.module.css'
+import btn from '../../../../Images/Reviews/btn.png'
+
 class CreateReview extends Component {
-    render() {
-        // function addReview() {
-        //     const newReview = {
-        //         img: {reviewrPhoto},
-        //         name: '',
-        //         message: '',
-        //         rating: 5,
-        //         date: ''
-        //     }
-    
-        //     setFeedback([...feedback, feedbackUs])
-        // }
-    
+    render() {    
         return (
             <div>
-                
+                <button>
+                    <img className={styles.sendReviewBtn} src={btn} alt="Отправить отзыв" />
+                </button>
             </div>
         );
     }

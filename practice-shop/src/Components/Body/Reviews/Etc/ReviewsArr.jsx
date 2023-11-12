@@ -5,6 +5,7 @@ import styles from '../Reviews.module.css';
 import img1 from '../../../../Images/Reviews/users photo/img1.jpg'
 import img2 from '../../../../Images/Reviews/users photo/img2.jpg'
 import star from '../../../../Images/Reviews/star.svg'
+import btn from '../../../../Images/Reviews/button.svg'
 
 const ReviewsArr = () => {
     const [reviewsArr, setReviewsArr] = useState([
@@ -53,9 +54,15 @@ const ReviewsArr = () => {
     return (
             <div className={styles.reviews}>
                 <p className={styles.reviewsLabel}>Отзывы наших покупателей</p>
-                <div className={styles.reviewBox}>
-                    {renderReviews}
+                <div className={styles.mainContent}>
+                    <div className={styles.reviewBox}>
+                        {renderReviews}
+                    </div>
+                    <button className={styles.button}>
+                        <img src={btn} alt="" />
+                    </button>
                 </div>
+                
             </div>
     );
 }
