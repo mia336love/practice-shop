@@ -1,28 +1,27 @@
 a {
     text-decoration: none;
     color: #FFFDF5;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 li {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 10px;
+    /* gap: 10px; */
+    margin: 5% 0; 
 }
 
 .footer {
     background: #514A7E;
     width: 100%;
-    height: 373.4px;
+    height: 50vh;
     display: flex;
-    position: relative;
-    top: 1000px;
 
+
+    margin-top: 10%;
     display: flex;
     justify-content: center; 
     align-items: baseline;   
@@ -31,16 +30,16 @@ li {
 
   .footLabel {
     color: #FFFDF5;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
     margin-top: 60px;
+
   }
 
-  .footer p {
+  .footSocial p {
     color: #FFFDF5;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -49,33 +48,15 @@ li {
     line-height: normal;
   }
 
-  /* .footInfo, .footMyAccount .footSocial {
-    flex: 1;
-  } */
+
 
   .footInfo {
-    /* position: relative; */
     width: 124px;
     height: 206.12px;
-
-    /* left: 135px; */
-
   }
   .footMyAccount {
-    /* position: relative; */
     width: 124px;
     height: 114.51px;
-    /* left: 356px; */
-  }
-
-  .footContact {
-    /* position: relative; */
-    left: 60px;
-
-  }
-
-  .footSocial {
-    /* position: relative; */
   }
 
   .imgPhone {
@@ -90,18 +71,13 @@ li {
     flex-shrink: 0;
   }
 
-  .footInfo {
-    margin-right: 97px;
-  } 
-  
-  .footMyAccount {
-    margin-right: 97px;
-  }
-  .footContact {
-    margin-right: 97px;
-  }
-  .footSocial {
-    margin-right: 97px;
+
+  .blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+    margin-left: -5%;
   }
 
   .ip {
@@ -114,11 +90,16 @@ li {
   }
 
   .logoNeon {
+    display: flex;
     width: 84px;
     height: 83.642px;
     flex-shrink: 0;
 
-    position: absolute;
-    left: 90%;
-    top: 70%
+    padding-top: 18%;
+  }
+
+  .allContent {
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
   }

@@ -8,15 +8,19 @@ const Footer = () =>{
     return (
         <div className={styles.footer}>
             {/* <footer> */}
-
-                <Info />
-                <MyAccount />
-                <Contact />
-                <Socials />
-
-                 
+            <div className={styles.allContent}>
+                <div className={styles.blocks}>
+                    <Info />
+                    <MyAccount />
+                    <Contact />
+                    <Socials />
+                </div>
+                
+                
                 <img className={styles.logoNeon} src="./images/logo-neon-2.png" alt="logo neon" />
 
+            </div>
+                
                 
             {/* </footer> */}
         </div>
