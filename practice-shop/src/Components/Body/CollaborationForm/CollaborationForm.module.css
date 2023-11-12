@@ -1,3 +1,13 @@
+.CollaborationForm {
+    background: #514A7E;
+    box-shadow: 0px 4px 20px 0px rgba(51, 51, 51, 0.05);
+
+    width: 70%;
+    height: 75vh;
+
+    margin-top: 10%;
+}
+
 .joinLabel {
     color: #121212;
     font-family: Roboto;
@@ -10,10 +20,15 @@
 .joinForm{
     display: flex;
     flex-direction: column;
-    margin-top: 2%;
+    position: relative;
+    left: 10%;
+    top: 10.2%;
     background-color: rgba(255, 253, 245, 1);
-    max-width: 70%;
-    max-height: 55vh;
+    /* max-width: 70%;
+    max-height: 55vh; */
+
+    width: 80%;
+    height: 60vh;
 }
 
 .joinInputs{
@@ -21,8 +36,6 @@
     flex-direction: column;
     max-width: 50%;
     margin-left: 8%;
-
-    
 }
 
 .joinInputs>input{
@@ -36,6 +49,14 @@
     background-color: transparent;
 }
 
+input::placeholder {
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 118%;
+  }
+  
 .textContainer {
     margin-left: 8%;
     max-width: 90%;

@@ -10,7 +10,6 @@ li {
     list-style: none;
     display: flex;
     align-items: center;
-    /* gap: 10px; */
     margin: 5% 0; 
 }
 
@@ -21,11 +20,10 @@ li {
     display: flex;
 
 
-    margin-top: 10%;
+    margin-top: 13%;
     display: flex;
     justify-content: center; 
     align-items: baseline;   
-  
   }
 
   .footLabel {

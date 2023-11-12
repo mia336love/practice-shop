@@ -19,8 +19,9 @@ import arrow from '../../../Images/CollaborationForm/arrow.svg'
 
 const CollaborationForm = () => {
     return (
-        <div className="welcome-to-join">
+        <div className={styles.CollaborationForm}>
             <form className={styles.joinForm}>
+                {/* <div className={styles.formContent}></div> */}
                 <div className={styles.textContainer}>
                     <p className={styles.joinLabel}>Приглашаем  к сотрудничеству производителей и поставщиков одежды, обуви и аксессуаров</p>
                 </div>
