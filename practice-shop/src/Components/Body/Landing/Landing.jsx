@@ -22,7 +22,7 @@ const Landing = () => {
             <Reviews />
             <Faq />
             <Collaboration />
-            <CollaborationForm />
+            {/* <CollaborationForm /> */}
             <Footer />
         </div>
     );

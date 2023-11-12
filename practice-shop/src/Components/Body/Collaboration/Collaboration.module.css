@@ -83,10 +83,15 @@
 
 } */
 
-.collaboration {
+/* .collaboration {
     position: absolute;
     top: 3322px;
     left: 135px;
+} */
+
+.collaboration {
+    /* display: flex; */
+    margin-left: 9%;
 }
 
 .collaborationLabel {
@@ -117,6 +122,8 @@
     margin-top: 60px;
     margin-bottom: 60px;
 
+    justify-content: space-between;
+    width: 88%;
 }
 
 .blocks label {
@@ -140,7 +147,7 @@
 
     margin-top: 22px;
 }
-.block1 {
+/* .block1 {
     margin-right: 110px;
 }
 .block2 {
@@ -148,7 +155,9 @@
 }
 .block3 {
     margin-right: 170px;
-}
+} */
+
+
 
 .benefits label {
     color: #121212;
@@ -165,5 +174,8 @@
     text-align: center;
     text-align: center;    
     margin-top: 60px;
+
+    justify-content: space-between;
+    width: 89%;
 
 }
